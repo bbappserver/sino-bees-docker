@@ -13,4 +13,4 @@ services:
       - HASH_TABLE_SIZE=4G
       - OPTIONS=-a -c 1
     volumes:
-      - /mnt:/mnt
+      - /volume1:/mnt
